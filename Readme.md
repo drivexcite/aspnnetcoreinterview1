@@ -16,6 +16,8 @@ The objective of this challenge is to evaluate general knowledge in back-end dev
 - Testability.
 
 ## Requirements:
+Fork this repo, complete the exercise and answer the questions on the Readme file. Give yourself about an hour to complete and see how far did you get.
+
 - Create an endpoint to return the collection of all available locations. Would your solution work if the number locations was very large? Think of all the Cities in the US, for example.
 - Make the necessary database and data access layer modifications to allow different items to be sold in specific locations.
 - Create an endpoint to return the collection of all items available in a specific location. Would your solution work for large number of items.
