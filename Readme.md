@@ -15,17 +15,17 @@ The objective of this challenge is to evaluate general knowledge in back-end dev
 - Querying.
 - Testability.
 
-## Questions:
-- Create an endpoint to return the collection of all available locations.
+## Requirements:
+- Create an endpoint to return the collection of all available locations. Would your solution work if the number locations was very large? Think of all the Cities in the US, for example.
 - Make the necessary database and data access layer modifications to allow different items to be sold in specific locations.
-- Create an endpoint to return the collection of all items available in a specific location.
+- Create an endpoint to return the collection of all items available in a specific location. Would your solution work for large number of items.
 - Create an item to return a list of locations and the number of items available in each.
 - Create a test to verify that asking for the items in a non-existing location returns an HTTP status code 404.
 - Add an endpoint to create a new item.
 - Create a test to verify that the Create New Item endpoint actually persists a new item.
 - Make the necessary database and data access layer modifications to add a new Supplier column to the Item table.
 
-## Hints:
+## Questions:
 - How would you modify the API to support server-side pagination?
 - How would you modify the API to use different DB connections in Test and Production?
 - How would you modify the API to validate the input in the Create Item endpoint?
@@ -34,8 +34,6 @@ The objective of this challenge is to evaluate general knowledge in back-end dev
 - How would you modify the responses of the API to make them self-descriptive and allow the developer to discovery of the capabilities?
 - How would you modify the API to prevent the LocationsController.GetLocationById method from locking the currently executing thread?
 - How would you modify the API to prevent the leakage of newly added fields to the Items collection.
-
-## General questions:
 - How would you determine the performance of the endpoints is adequate?
 - How would you deploy this application?
 - How would you provision the resources necessary to test and run the API?
@@ -45,3 +43,4 @@ The objective of this challenge is to evaluate general knowledge in back-end dev
 - How would you design the API to allow modifications to existing Items, when multiple clients may request changes at the same time?
 - How would you design the API to add more fields to the Items collection without breaking existing clients?
 - What steps would you take to make sure the API is scalable in peak days, like Black Friday, Halloween, Mother's Day or other consumerist holidays?
+- Would there be any advantage in using a NoSQL database? Why? Wich?
